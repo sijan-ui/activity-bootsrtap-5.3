@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    ;
+    text-decoration: none !important;
+}
+
+/***** Common Design ********/
+
+.head-design{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #333333;
+    padding-bottom: 15px;
+
+    display: inline-block;
+    position: relative;
+}
+
+.head-design:after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 50%;
+    bottom: 0;
+    background: #333333;
+    left: 25%;
+}
+
+.head-design2{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #fff;
+    padding-bottom: 15px;
+
+    display: inline-block;
+    position: relative;
+}
+
+.head-design2:after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 50%;
+    bottom: 0;
+    background: #fff;
+    left: 25%;
+}
+
+/************** Header Section *************/
+header{
+    width: 100%;
+    height: 800px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/**** nav Section ****/
+nav{
+    padding-top: 20px !important;
+}
+.navbar .navbar-brand i{
+    font-size: 32px;
+    color: #30C39E;   
+}
+
+.navbar-toggler{
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 13px 17px;
+    color: white;
+    margin-right: 20px;
+    background: #30C39E;
+
+}
+.navbar-toggler:hover{
+    background: white;
+    color: black;
+    font-weight: 400; 
+}
+
+.navbar-toggler:focus{
+    border: none;
+    outline: none;
+    box-shadow: none; 
+}
+
+
+.navbar .navbar-brand{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.navbar .nav-link{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    transition: .5s ease;
+}
+.nav-item{
+    margin-right: 10px !important;
+}
+
+.nav-link:hover{
+    color: #30C39E;
+}
+
+.nav-item .active{
+    color: #30C39E !important;
+}
+
+/**** Hero Section *****/
+.hero h3{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.hero h1{
+    font-size: 65px;
+    color: #30C39E;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.hero h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.hero p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 25px 0;
+}
+
+.hero .btn{
+    padding: 10px 35px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 3px !important;
+    margin-right: 10px;
+    transition: .5s ease;
+}
+.hero .btn:hover{
+    background: #30C39E;
+}
+/**** Side-Bar******/
+.side-bar{
+    width: 90px;
+    height: auto;
+    background: #0D1326;
+    border-radius: 9px 0px 0px 9px;
+    position: fixed;
+    top: 80px;
+    right: 0;
+    z-index: 5;
+}
+.side-bar ul li a{
+    color: #666;
+    transition: .5s ease;
+}
+
+.side-bar ul li a:hover{
+    color: #fff;
+
+}
+
+
+/**************** About section *****************/
+.about{
+    padding: 60px 0;
+}
+
+.about-content h4{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #333333;
+}
+.about-content p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #666666;
+    text-align: justify;
+}
+
+
+.about-content .btn{
+    background: #0A8EA0;
+    padding: 12px 45px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    border-radius: 5px !important;
+    border: 2px solid transparent;
+}
+
+.about-content a:hover{
+    border: 2px solid #333333;
+    color: #333333 !important;
+    background: none;
+}
+.about-content .btn:hover .fa-solid{
+    color:#333333;
+}
+
+.about-right-content h6{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color:#333333;
+}
+.about-right-content p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#666666;
+}
+
+/***************** Services section *****************/
+.services{
+    padding: 60px 0;
+    background: #30C39E;
+}
+
+
+.service-content h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+}
+.service-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #eeeeee;
+  
+}
+.content i{
+    font-size: 30px;
+    
+}
+/****************** Experience section *****************/
+.experience{
+    padding: 60px 0;
+}
+
+.experience .card-body h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #333333;
+}
+.experience .card-body h6{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #fff;
+    background: #30C39E;
+    padding: 5px 10px;
+}
+.experience .card-body p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666666;
+}
+.experience .card{
+    border: none;
+}
+
+/******************** Blog section *****************/
+.blog{
+    padding: 60px 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/exp1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.blog-content h4{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #fff;
+}
+
+.blog-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #cccccc !important;
+    margin: 20px 0;
+}
+.blog-card-sec .card{
+    border-radius: 0px;
+}
+
+.card-top h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #333333 !important;
+}
+.card-top h6{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #fff;
+    background: #30C39E;
+    padding: 5px 10px;
+}
+
+.blog-card-sec .card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999999 !important;
+}
+
+.blog-card-sec .card a{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #0a8ea0;
+    text-decoration: none;
+}
+
+/****************** Projects section *****************/
+.project{
+    padding: 60px 0;
+}
+
+/******************* Descripton section *****************/
+.desc{
+    padding: 60px 0;
+    background: #0A8EA0;
+}
+.desc p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #dddddd;
+}
+.desc h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: #fff;
+}
+
+.desc-btn{
+    color: #0A8EA0;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 40px;
+
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+.desc-btn:hover{
+    background: #333333;
+    color: #fff;
+}
+
+.desc-btn2{
+    
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 40px;
+    background: #333333;
+
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+.desc-btn2:hover{
+    color: #0A8EA0;
+    background: #fff;
+}
+
+/******** Contact section *****************/
+
+.contact{
+    padding: 60px 0;
+}
+
+.address h4{
+    color: #333333;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.address ul li a{
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;  
+}
+.address ul li a i{
+    color: #30C39E;
+      
+}
+
+.form-sec h4{
+    color: #333333;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+form i{
+    color: #30C39E;
+    margin-right: 8px; 
+}
+
+form label span{
+    font-size: 15px;
+    font-weight: 600;
+    color: #333333;
+}
+.map iframe{
+    width: 100%;
+    height: 250px;
+    border: 5px solid #eeeeee;
+}
+#Submit-btn{
+    padding: 12px 40px;
+    color: #fff;
+    background: #0A8EA0;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+
+    border: 2px solid transparent;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+#Submit-btn:hover{
+    background: transparent;
+    color: #333333;
+    border: 2px solid #333333;
+}
+
+/************* Footer Section Starts ********************/
+.footer{
+    padding: 60px 0;
+    background: #191919;
+}
+
+.container .para{
+    font-size: 15px;
+    font-weight: 400;
+    color: #999;
+}
+.container .para a{
+    color: #999999;
+    transition: .4s ease;
+}
+.container .para a:hover{
+    color: #fff;
+}
+.footer-icon a{
+    color: #999999;
+    background: #222222;
+    width: 42px;
+    height: 42px;
+}
+.footer-icon a i{
+    padding-top: 15px;
+}
+.arrow a i{
+    border: 1px solid #666;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}

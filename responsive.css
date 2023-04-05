@@ -1,0 +1,48 @@
+@media (min-width: 992px) and (max-width: 1600px) {
+    .hero{
+        margin-top: 150px;
+        margin-bottom: 80px;
+    }
+  
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .hero{
+        margin-top: 150px;
+        margin-bottom: 60px;
+    }
+    /*header{
+        height: 700px;
+    }*/
+
+    .contact .container {
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .hero{
+        margin-top: 120px;
+        margin-bottom: 50px;
+    }
+
+    /*header{
+        height: 650px;
+    }*/
+}
+
+@media (min-width: 0px) and (max-width: 675px) {
+    .hero{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    /*header{
+        max-height: 700px;
+    }*/
+
+    .hero .btn{
+        padding: 8px 15px;
+    }
+}
+

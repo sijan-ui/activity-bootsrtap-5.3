@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <!--Font-Awesome Cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <!--Bootstrap Link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Css Link-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="#"><i class="fa-brands fa-rebel me-3"></i>Activity</a>
+                <a class="navbar-toggler" type="button" data-bs-toggle="collapse" href="#navbarSupportedContent">
+                    <span class="menubar">menu</span>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown"> Dropdown</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><a class="dropdown-item" href="#"> Projects</a></li>
+                                <li><a class="dropdown-item" href="#">Quoted text</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero">
+                <div class="row">
+                    <div class="col-11 col-md-9 col-lg-8">
+                        <h3>My Name Is</h3>
+                        <h1>John Watson</h1>
+                        <h4>Web Designer And Developer</h4>
+                        <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum Vestibulum.
+                            placerat placerat dolor. Vestibulum at dui nunc. Nullam eu elit neque lectus. Aliquam erat
+                            volutpat. Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus.</p>
+                        <a class="btn" href="#">Read More</a>
+                        <a class="btn" href="#">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Sidebar-->
+    <div class="side-bar py-4">
+        <ul class="d-flex flex-column list-unstyled text-center">
+            <li class="my-2"><a href="#"><i class="fa-solid fa-angles-right"></i></a></li>
+            <hr class="text-secondary">
+            <li class="my-2"><a href="#"><i class="fa-solid fa-arrow-left"></i><br> Back</a></li>
+            <li class="my-2"><a href="#"><i class="fa-solid fa-download"></i><br> Download</a></li>
+            <li class="mt-2"><a href="#"><i class="fa-solid fa-cart-shopping"></i><br> Buy</a></li>
+        </ul>
+    </div>
+    <!------- About Section Starts --------------->
+    <section id="about" class="about">
+        <div class="container text-center mt-5">
+            <h1 class="head-design">About Me</h1>
+            <div class="about-content text-start mt-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 pe-4 mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+                        <h4>Nulla Viverra Pharetra Sem, Eget Pulvinar Neque Pharetra Ac Int.</h4>
+                        <p class="py-3">Nulla viverra pharetra sem, eget pulvinar neque et pharetra ac int.
+                            lorem ipsum Vestibulum. Sed placerat placerat dolor. Vestibulum at
+                            dui nunc. Nullam eu elit neque lectus. Aliquam erat ipsum volutpat.
+                            Nullam ac mattis mi. Donec tincidunt leoelit dictum viverra luctus pharetra ac .</p>
+                        <a class="btn btn-primary text-light d-inline-block" href="#">Download Cv <i
+                                class="fa-solid fa-download ms-2"></i></a>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+                        <div class="about-img bg-info">
+                            <img class="w-100" src="images/about.jpg">
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+                        <div class="about-right-content ps-2">
+                            <div class="first">
+                                <div class="first-row d-flex justify-content-between">
+                                    <h6>Designing & Developing</h6>
+                                    <h6>95%</h6>
+                                </div>
+                                <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum</p>
+                            </div>
+                            <div class="first mt-4">
+                                <div class="first-row d-flex justify-content-between mb-2">
+                                    <h6>Java And Scripting</h6>
+                                    <h6>85%</h6>
+                                </div>
+                                <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum</p>
+                            </div>
+                            <div class="first mt-4">
+                                <div class="first-row d-flex justify-content-between">
+                                    <h6>Photoshop & Editing</h6>
+                                    <h6>90%</h6>
+                                </div>
+                                <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra ac int. lorem ipsum</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- Services Section Starts --------------->
+    <section id="services" class="services">
+        <div class="container text-center">
+            <h1 class="head-design2">Services</h1>
+            <div class="service-content text-start">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content px-3 mt-5">
+                            <h2 class="mb-3"><i class="fa-solid fa-gears me-2"></i> UI/UX Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam.
+                                placerat placerat dolor. Vestibulum</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content px-3 mt-5">
+                            <h2 class="mb-3"><i class="fa-solid fa-mobile-screen me-2"></i> Mobile Apps</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam.
+                                placerat placerat dolor. Vestibulum</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content px-3 mt-5">
+                            <h2 class="mb-3"><i class="fa-solid fa-laptop me-2"></i> Web Developers</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam.
+                                placerat placerat dolor. Vestibulum</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content px-3 mt-5">
+                            <h2 class="mb-3"><i class="fa-solid fa-camera me-2"></i> Photoshop</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam.
+                                placerat placerat dolor. Vestibulum</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content px-3 mt-5">
+                            <h2 class="mb-3"><i class="fa-solid fa-headphones-simple me-2"></i> Software</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam.
+                                placerat placerat dolor. Vestibulum</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content px-3 mt-5">
+                            <h2 class="mb-3"><i class="fa-brands fa-cloudflare me-2"></i> Graphic Design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisci ngelit. In euismod faucibus quam.
+                                placerat placerat dolor. Vestibulum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- Experience Section Starts --------------->
+    <section id="experience" class="experience">
+        <div class="container text-center">
+            <h1 class="head-design">Experience</h1>
+            <div class="card-sec text-start mt-5">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+                        <div class="card">
+                            <img src="images/exp1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-top d-flex justify-content-between py-4 px-3">
+                                    <h3>Web Designer</h3>
+                                    <h6>2007 - 2010</h6>
+                                </div>
+                                <p class="card-text">Nulla viverra pharetra sem, eget pulvinar neque
+                                    pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum
+                                    at dui nunc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card2-->
+                    <div class="col-md-6 col-lg-4 mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+                        <div class="card">
+                            <img src="images/exp2.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-top d-flex justify-content-between py-4 px-3">
+                                    <h3>App Developer</h3>
+                                    <h6>2007 - 2010</h6>
+                                </div>
+                                <p class="card-text">Nulla viverra pharetra sem, eget pulvinar neque
+                                    pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum
+                                    at dui nunc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--card3-->
+                    <div class="col-md-6 col-lg-4 mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+                        <div class="card">
+                            <img src="images/exp1.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-top d-flex justify-content-between py-4 px-3">
+                                    <h3>Web Developer</h3>
+                                    <h6>2007 - 2010</h6>
+                                </div>
+                                <p class="card-text">Nulla viverra pharetra sem, eget pulvinar neque
+                                    pharetra ac int. lorem ipsum Vestibulum. placerat placerat dolor. Vestibulum
+                                    at dui nunc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- Blog Section Starts --------------->
+    <section id="blog" class="blog">
+        <div class="container text-center">
+            <h1 class="head-design2">Blog</h1>
+            <div class="blog-content text-start mt-5">
+                <div class="row">
+                    <div class="col-md-8 col-lg-7">
+                        <h4>I Write Beautiful Things</h4>
+                        <p>Nulla viverra pharetra sem, eget pulvinar neque pharetra
+                            ac int. lorem ipsum Vestibulum. placerat placerat dolor.
+                            Vestibulum at dui nunc.</p>
+                    </div>
+                </div>
+                <div class="blog-card-sec mt-4">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card py-5 px-4">
+                                <div class="card-top d-flex justify-content-between">
+                                    <h4>Web Design</h4>
+                                    <h6>2007 - 2010</h6>
+                                </div>
+                                <p>Nulla viverra pharetra se, eget pulvinar neque pharetra
+                                    ac int. placerat placerat dolor. Vestibulum at dui nunc
+                                    .....</p>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                        <!--card2-->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card py-5 px-4">
+                                <div class="card-top d-flex justify-content-between">
+                                    <h4>Mobile Apps</h4>
+                                    <h6>2007 - 2010</h6>
+                                </div>
+                                <p>Nulla viverra pharetra se, eget pulvinar neque pharetra
+                                    ac int. placerat placerat dolor. Vestibulum at dui nunc
+                                    .....</p>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                        <!--card2-->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card py-5 px-4">
+                                <div class="card-top d-flex justify-content-between">
+                                    <h4>Web Development</h4>
+                                    <h6>2007 - 2010</h6>
+                                </div>
+                                <p>Nulla viverra pharetra se, eget pulvinar neque pharetra
+                                    ac int. placerat placerat dolor. Vestibulum at dui nunc
+                                    .....</p>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- Projects Section Starts --------------->
+    <section id="project" class="project">
+        <div class="container text-center">
+            <h1 class="head-design">Projects</h1>
+            <div class="gallary mt-5">
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <img class="w-100" src="images/exp1.jpg" alt="">
+                    </div>
+                    <!--sec3-->
+                    <div class="col-md-6 col-lg-3">
+                        <img class="w-100" src="images/exp2.jpg" alt="">
+                    </div>
+                    <!--sec4-->
+                    <div class="col-md-6 col-lg-3">
+                        <img class="w-100" src="images/exp1.jpg" alt="">
+                    </div>
+                    <!--sec5-->
+                    <div class="col-md-6 col-lg-3">
+                        <img class="w-100" src="images/exp2.jpg" alt="">
+                    </div>
+                    <!--sec6-->
+                    <div class="col-md-6 col-lg-3">
+                        <img class="w-100" src="images/exp1.jpg" alt="">
+                    </div>
+                    <!--sec7-->
+                    <div class="col-md-6 col-lg-3">
+                        <img class="w-100" src="images/exp2.jpg" alt="">
+                    </div>
+                    <!--sec7-->
+                    <div class="col-md-6 col-lg-3">
+                        <img class="w-100" src="images/exp2.jpg" alt="">
+                    </div>
+                    <!--sec8-->
+                    <div class="col-md-6 col-lg-3">
+                        <img class="w-100" src="images/exp1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------- Description Section Starts --------------->
+    <section id="desc" class="desc">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-8 col-lg-8 offset-md-2">
+                    <h3>Ulvinar Neque Pharetra Ac Int. Placerat</h3>
+                    <p class="my-4">Nulla viverra pharetra se, eget pulvinar neque
+                        pharetra ac int. placerat placerat dolor. Vestibulum
+                        at dui nunc. Nulla viverra pharetra sem, eget pulvinar
+                        neque pharetra ac int. lorem ipsum Vestibulum. placerat
+                        placerat dolor. Vestibulum at dui nunc. Nullam eu elit
+                        neque lectus.
+                    </p>
+                    <a class="desc-btn" href="#">My Work</a>
+                    <a class="desc-btn2" href="#">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------- Contact Section Starts --------------->
+    <section id="contact" class="contact">
+        <div class="container text-center">
+            <h1 class="head-design">Contact</h1>
+            <div class="contact-content mt-5">
+                <div class="row gy-5">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="address text-start">
+                            <h4 class="mb-4">Address Info</h4>
+                            <ul class="list-unstyled row gy-3">
+                                <li><a href="#"><i class="fa-solid fa-location-dot me-4"></i>
+                                        24H Main Block, 4th cross, California, California - 94203</a></li>
+                                <li><a href="tel:01894453742"><i class="fa-solid fa-phone me-4"></i> +112 367 896
+                                        2449</a></li>
+                                <li><a href="mailto:info600@gmail.com"><i class="fa-solid fa-envelope me-4"></i>
+                                        mail@example.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="map pe-4 mt-4">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9028600385427!2d90.39122601424363!3d23.750843194677906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8bd535e2469%3A0xd144b1293fb0f720!2sBDBL%20Bhaban%2C%2012%2C%20Kazi%20Nazrul%20Islam%20Ave%2C%20Dhaka%201215!5e0!3m2!1sen!2sbd!4v1680002691218!5m2!1sen!2sbd"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-7">
+                        <div class="form-sec text-start">
+                            <h4 class="mb-4">Get In Touch</h4>
+                            <!-- Form Starts Here-->
+                            <form action="" method="post" class="ps-3">
+                                <div class="row mb-3">
+                                    <!--User Name-->
+                                    <label for="user-name" class="col-sm-2 col-form-label">
+                                        <i class="fa-solid fa-user"></i><Span>Name</Span>
+                                    </label>
+                                    <div class="col-md-12 col-lg-10">
+                                        <input type="text" class="form-control" id="user-name" name="user-name"
+                                            placeholder="Name">
+                                    </div>
+                                </div>
+                                <!--User Email-->
+                                <div class="row mb-3">
+                                    <label for="user-email" class="col-sm-2 col-form-label">
+                                        <i class="fa-solid fa-envelope-open"></i><Span>Email</Span>
+                                    </label>
+                                    <div class="col-md-12 col-lg-10">
+                                        <input type="text" class="form-control" id="user-email" name="user-email"
+                                            placeholder="Email">
+                                    </div>
+                                </div>
+                                <!--User Phone-->
+                                <div class="row mb-3">
+                                    <label for="user-num" class="col-sm-2 col-form-label">
+                                        <i class="fa-solid fa-phone"></i><Span>Phone</Span>
+                                    </label>
+                                    <div class="col-md-12 col-lg-10">
+                                        <input type="text" class="form-control" id="user-phone" name="user-email"
+                                            placeholder="Phone">
+                                    </div>
+                                </div>
+                                <!--Text-Area-->
+                                <div class="row mb-4">
+                                    <label for="user-msg" class="col-sm-2 col-form-label">
+                                        <i class="fa-regular fa-pen-to-square"></i><Span>Message</Span>
+                                    </label>
+                                    <div class="col-md-12 col-lg-10">
+                                        <textarea class="form-control" name="user-msg" id="user-msg" cols="30" rows="4"
+                                            placeholder="Message...."></textarea>
+                                    </div>
+                                </div>
+                                <div class="submit-btn text-end">
+                                    <a href="#" type="submit" value="Submit" id="Submit-btn">Submit</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-icon">
+                <a class="me-2 rounded-1 d-inline-block" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="me-2 rounded-1 d-inline-block" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a class="me-2 rounded-1 d-inline-block" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a class="me-2 rounded-1 d-inline-block" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a class="me-2 rounded-1 d-inline-block" href="#"><i class="fa-brands fa-wordpress-simple"></i></a>
+            </div>
+            <p class="mt-4 para">© 2018 Activity. All Rights Reserved | Design by <a href="#"> W3layouts</a></p>
+            <div class="arrow">
+                <a href="#header"><i class="fa-regular fa-greater-than fa-rotate-270 px-2 py-2 rounded-circle"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
